@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p-3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="fonts/vazir.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+        <div class="container mt-4">
+            <section class="form-header text-center">
+                <img width="40" height="40" src="data:image/png;base64,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" alt="bootstrap">
+
+                    <h2 class="mt-3 mb-3">فرم خرید</h2>
+                    <p class="lead">باور ما اینست که کاربران ایرانی لایق بهترین ها هستند و باید بهترین و بروزترین فیلم های آموزشی و مقالات در اختیار آنها قرار بگیرد تا بتوانند به سرعت پیشرفت کنند و جزء بهترین ها در صنعت طراحی و برنامه نویسی وب شوند . با ما همراه باشید تا بهترین ها رو لایق بهترین کاربران کنیم</p>
+            </section>    
+
+
+            <section class="form-main mt-5 pb-5">
+
+                <div class="row">
+
+                    <div class="col-md-8 order-2 order-md-1 mt-5 mt-md-0 your-address">
+
+                        <h4 class="mb-3">آدرس شما</h4>
+                        <form class="needs-validation" novalidate>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label class="font-weight-light">نام</label>
+                                    <input type="text" class="form-control" required>
+                                    <div class="valid-feedback">
+                                        نام وارد شد
+                                      </div>
+                                      <div class="invalid-feedback">
+                                        لطفا نام را وارد کنید
+                                      </div>
+                                  </div>
+                                  <div class="form-group col-md-6">
+                                    <label class="font-weight-light">نام خانوادگی</label>
+                                    <input type="text" class="form-control" required>
+                                    <div class="valid-feedback">
+                                        نام خانوادگی وارد شد
+                                      </div>
+                                      <div class="invalid-feedback">
+                                        لطفا نام خانوادگی را وارد کنید
+                                      </div>
+                                  </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="font-weight-light">نام کاربری</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="نام کاربری" required>
+                                    <div class="valid-feedback">
+                                        نام کاربری وارد شد
+                                      </div>
+                                      <div class="invalid-feedback">
+                                        لطفا نام کاربری را وارد کنید
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="font-weight-light">ایمیل  <span class="text-muted">(انتخابی)</span></label>
+                                    <input type="email" class="form-control" placeholder="you@example.com" >
+                                    
+                            </div>
+
+                            <div class="form-group">
+                                <label class="font-weight-light">آدرس</label>
+                                    <input type="text" class="form-control" placeholder="مازندران، بابل" required>
+                                    <div class="valid-feedback">
+                                        آدرس وارد شد
+                                      </div>
+                                      <div class="invalid-feedback">
+                                        لطفا آدرس را وارد کنید
+                                      </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="font-weight-light">آدرس 2 <span class="text-muted">(انتخابی)</span></label>
+                                    <input type="text" class="form-control" placeholder="تهران ، تهران">
+                                    
+                            </div>
+
+
+                            <div class="form-row">
+                                <div class="form-group col-md-5">
+                                    <label class="font-weight-light">کشور</label>
+                                    <select class="form-control">
+                                        <option>انتخاب کنید ...</option>
+                                        <option>ایران</option>
+                                        <option>آمریکا</option>
+                                        <option>انگلستان</option>
+                                        <option>ژاپن</option>
+                                      </select>
+                                  </div>
+                                  <div class="form-group col-md-4">
+                                    <label class="font-weight-light">استان</label>
+                                    <select class="form-control">
+                                        <option>انتخاب کنید ...</option>
+                                        <option>تهران</option>
+                                        <option>اصفهان</option>
+                                        <option>شیراز</option>
+                                        <option>گیلان</option>
+                                      </select>
+                                  </div>
+                                  <div class="form-group col-md-3">
+                                    <label class="font-weight-light">شهر</label>
+                                    <input type="text" class="form-control" placeholder="بابل" required>
+                                    <div class="valid-feedback">
+                                        شهر وارد شد
+                                      </div>
+                                      <div class="invalid-feedback">
+                                        لطفا شهر را وارد کنید
+                                      </div>
+                                  </div>
+                            </div>
+
+                            <hr class="mb-4">
+
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input font-weight-light" id="customCheck1">
+                                <label class="custom-control-label" for="customCheck1">قبل از ارسال سفارش برای هماهنگی تماس گرفته شود</label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                <label class="custom-control-label font-weight-light" for="customCheck2">ذخیره سازی اطلاعات برای خرید بعدی</label>
+                              </div>
+
+                              <hr class="mb-4">
+
+                              <h4>نوع پرداخت</h4>
+
+                              <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked>
+                                <label class="custom-control-label font-weight-light" for="customRadio1">بانک ملت</label>
+                              </div>
+                              <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label font-weight-light" for="customRadio2">بانک آینده</label>
+                              </div>
+                              <div class="custom-control custom-radio mb-4">
+                                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label font-weight-light" for="customRadio3">زرین پال</label>
+                              </div>
+                              
+
+                              <div class="form-row mb-2">
+                                    <div class="form-group col-md-6">
+                                        <label class="font-weight-light">نام دارنده کارت</label>
+                                        <input type="text" class="form-control" required>
+                                        <div class="valid-feedback">
+                                            نام دارنده کارت وارد شد
+                                          </div>
+                                          <div class="invalid-feedback">
+                                            لطفا نام دارنده کارت را وارد کنید
+                                          </div>
+                                        <small class="text-muted">لطفا نام کامل دارنده کارت را به فارسی وارد کنید</small>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="font-weight-light">شماره کارت</label>
+                                        <input type="text" class="form-control" required>
+                                        <div class="valid-feedback">
+                                            شماره کارت وارد شد
+                                          </div>
+                                          <div class="invalid-feedback">
+                                            لطفا شماره کارت را وارد کنید
+                                          </div>
+                                    </div>
+                                </div>
+
+                              <div class="form-row mb-4">
+                                    <div class="form-group col-md-3">
+                                        <label class="font-weight-light">نام دارنده کارت</label>
+                                        <input type="text" class="form-control" required>
+                                        <div class="valid-feedback">
+                                            نام دارنده کارت وارد شد
+                                          </div>
+                                          <div class="invalid-feedback">
+                                            لطفا نام دارنده کارت را وارد کنید
+                                          </div>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <label class="font-weight-light">شماره کارت</label>
+                                        <input type="text" class="form-control" required>
+                                        <div class="valid-feedback">
+                                            شماره کارت وارد شد
+                                          </div>
+                                          <div class="invalid-feedback">
+                                            لطفا شماره کارت را وارد کنید
+                                          </div>
+                                    </div>
+                                </div>
+        
+                                <hr class="mb-4">
+
+                                <button class="btn btn-primary btn-lg btn-block">ادامه و ثبت خرید</button>
+        
+                        </form>
+
+                    </div>
+
+
+
+                    <div class="col-md-4 order-1 order-md-2 sabad-kharid"> 
+                        <h4 class="mb-3 d-flex justify-content-between align-items-center">
+                            <span>سبدخرید شما</span>
+                            <span class="badge badge-pill badge-warning">4</span>
+                        </h4>
+
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="mb-0">عنوان محصول اول</h6>
+                                    <small class="text-muted">توضیح مختصر</small>
+                                </div>
+                                <span class="text-muted">$12</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="mb-0">عنوان محصول دوم</h6>
+                                    <small class="text-muted">توضیح مختصر</small>
+                                </div>
+                                <span class="text-muted">$12</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="mb-0">عنوان محصول سوم</h6>
+                                    <small class="text-muted">توضیح مختصر</small>
+                                </div>
+                                <span class="text-muted">$24</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div class="text-success">
+                                    <h6 class="mb-0">آیتم چهارم</h6>
+                                    <small>توضیح مختصر</small>
+                                </div>
+                                <span class="text-muted">$50</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="mb-0">جمع (تومان)</h6>
+                                    
+                                </div>
+                                <span class="text-muted">$110</span>
+                            </li>
+                           
+                          </ul>
+
+                          <div class="border mt-3 p-2 rounded">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="کد تخفیف" aria-label="" aria-describedby="basic-addon1">
+                                <div class="input-group-append">
+                                  <button class="btn btn-secondary" type="button">اعمال</button>
+                                </div>
+                              </div>
+                          </div>
+
+
+                    </div>
+                </div>
+
+             
+            </section>
+
+
+            <footer class="my-5 pt-5 text-center">
+                <p class="text-muted font-weight-light">© 1402-1403 Desined by Sina Sayah   </p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="font-weight-light">حریم خصوصی</a></li>
+                    <li class="list-inline-item"><a href="#" class="font-weight-light">قوانین</a></li>
+                    <li class="list-inline-item"><a href="#" class="font-weight-light">شکایات</a></li>
+                </ul>
+            </footer>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>

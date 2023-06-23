@@ -1,0 +1,12 @@
+
+body{
+    font-family: Vazir;
+    text-align: right;
+    direction: rtl;
+    font-size: 1.05rem;
+
+}
+
+.container{
+    max-width: 960px;
+}
